@@ -17,6 +17,7 @@ export default function Nav() {
                 <Link className="nav-link active" aria-current="page" to="/racers">Racers</Link>
                 <Link className="nav-link active" aria-current="page" to="/kekambas">Class List</Link>
                 <Link className="nav-link active" aria-current="page" to="/posts">Posts</Link>
+                <Link className="nav-link active" aria-current="page" to="/register">Register</Link>
             </div>
             </div>
         </div>

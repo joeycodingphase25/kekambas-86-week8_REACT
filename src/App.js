@@ -5,6 +5,7 @@ import RacerTable from "./views/RacerTable";
 import Kekambas from "./views/Kekambas";
 import Posts from "./views/Posts";
 import Home from "./views/Home";
+import Register from "./components/Register";
 
 
 export default class App extends Component { // exported in same line as class creation
@@ -39,6 +40,7 @@ export default class App extends Component { // exported in same line as class c
             <Route path="racers" element={<RacerTable />}/>
             <Route path="kekambas" element={<Kekambas />}/>
             <Route path="posts" element={<Posts />}/>
+            <Route path="register" element={<Register />}/>
             
           </Routes>
 
